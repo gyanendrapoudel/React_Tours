@@ -16,7 +16,6 @@ const fetchTours = async ()=>{
   
   if(!response.ok){
      throw  new  Error("Error occurred")
-     return
   }
   const data = await response.json()
   setTours(data)

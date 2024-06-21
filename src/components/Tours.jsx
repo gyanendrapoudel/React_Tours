@@ -4,10 +4,10 @@ const Tours = ({tours}) => {
         
 
   return (
-    <div>
-        {tours.map((tour,i)=>{
-            return <Tour key={i} tour={tour} />
-        }) }
+    <div className="tours  ">
+      {tours.map((tour, i) => {
+        return <Tour key={i} tour={tour} />
+      })}
     </div>
   )
 }
